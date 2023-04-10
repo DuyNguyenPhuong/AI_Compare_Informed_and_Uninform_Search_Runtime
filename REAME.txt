@@ -1,0 +1,25 @@
+Friday, April 7
+
+To test time, uncomment the last 4 lines of the code
+
+This my experience when testing the last iteration of iterative deepening search
+and the full iterative deepening search
+
+The result is:
+
+For solution has the length of 2, Time taken to run the last iteration 0.000202178955078125
+For solution has the length of 2, Time taken to run full 0.0001862049102783203
+For solution has the length of 4, Time taken to run the last iteration 0.001461029052734375
+For solution has the length of 4, Time taken to run full 0.002740144729614258
+For solution has the length of 8, Time taken to run the last iteration 0.049208641052246094
+For solution has the length of 8, Time taken to run full 0.10111212730407715
+For solution has the length of 10, Time taken to run the last iteration 1.0907189846038818
+For solution has the length of 10, Time taken to run full 1.9139189720153809
+
+
+
+Look at the results, we see that the time difference is not much difference. Because, we can see that
+because in a tree bottom level contain most of the node. So that the iteration of the level above the bottom
+level will be insignificant.
+
+Therefore, we can conclude that the iterative deepening is not significantly slower than regular depth-first search
